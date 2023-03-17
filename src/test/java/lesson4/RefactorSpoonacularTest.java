@@ -73,7 +73,7 @@ public class RefactorSpoonacularTest extends AbstractTest{
     }
 
     @Test
-    @Tag("negative ПОДУМАТЬ НАД ПРОВЕРКАМИ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+    @Tag("negative")
     void getVerifyingTest5() {
         JsonPath response = given().spec(getRequestSpecification())
                 .queryParam("maxCarbs", "50")
