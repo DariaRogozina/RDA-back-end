@@ -1,8 +1,9 @@
-package org.example;
+package lesson3;
 
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import lesson3.AbstractTest;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 

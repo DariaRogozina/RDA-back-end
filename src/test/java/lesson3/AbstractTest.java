@@ -1,5 +1,6 @@
-package org.example;
+package lesson3;
 
+import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeAll;
 
 import java.io.FileInputStream;
@@ -21,6 +22,8 @@ public class AbstractTest {
 
         apiKey =  prop.getProperty("apiKey");
         baseUrl= prop.getProperty("base_url");
+
+        RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
     }
 
     public static String getApiKey() {
