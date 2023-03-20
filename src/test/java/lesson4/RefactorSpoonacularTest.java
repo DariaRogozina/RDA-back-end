@@ -197,7 +197,7 @@ public class RefactorSpoonacularTest extends AbstractTest{
 //               .response()
 //               .body()
 //               .as(ResponseList.class);
-//       assertThat(responseList.getName(),containsString("beets"));
+//       assertThat(responseList.getClass().getClasses(1).getName(),containsString("beets"));
 
         given().spec(getRequestSpecification())
                 .queryParam("hash", hash)

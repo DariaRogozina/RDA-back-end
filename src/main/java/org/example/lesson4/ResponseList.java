@@ -38,58 +38,58 @@ public class ResponseList {
     @JsonIgnore
     private Map<String, Object> additionalProperties = new LinkedHashMap<String, Object>();
 
-    @JsonProperty("aisles")
-    public List<Aisle> getAisles() {
-        return aisles;
-    }
-
-    @JsonProperty("aisles")
-    public void setAisles(List<Aisle> aisles) {
-        this.aisles = aisles;
-    }
-
-    public ResponseList() {
-    }
-
-    @JsonProperty("cost")
-    public Double getCost() {
-        return cost;
-    }
-
-    @JsonProperty("cost")
-    public void setCost(Double cost) {
-        this.cost = cost;
-    }
-
-    @JsonProperty("startDate")
-    public Integer getStartDate() {
-        return startDate;
-    }
-
-    @JsonProperty("startDate")
-    public void setStartDate(Integer startDate) {
-        this.startDate = startDate;
-    }
-
-    @JsonProperty("endDate")
-    public Integer getEndDate() {
-        return endDate;
-    }
-
-    @JsonProperty("endDate")
-    public void setEndDate(Integer endDate) {
-        this.endDate = endDate;
-    }
-
-    @JsonAnyGetter
-    public Map<String, Object> getAdditionalProperties() {
-        return this.additionalProperties;
-    }
-
-    @JsonAnySetter
-    public void setAdditionalProperty(String name, Object value) {
-        this.additionalProperties.put(name, value);
-    }
+//    @JsonProperty("aisles")
+//    public List<Aisle> getAisles() {
+//        return aisles;
+//    }
+//
+//    @JsonProperty("aisles")
+//    public void setAisles(List<Aisle> aisles) {
+//        this.aisles = aisles;
+//    }
+//
+//    public ResponseList() {
+//    }
+//
+//    @JsonProperty("cost")
+//    public Double getCost() {
+//        return cost;
+//    }
+//
+//    @JsonProperty("cost")
+//    public void setCost(Double cost) {
+//        this.cost = cost;
+//    }
+//
+//    @JsonProperty("startDate")
+//    public Integer getStartDate() {
+//        return startDate;
+//    }
+//
+//    @JsonProperty("startDate")
+//    public void setStartDate(Integer startDate) {
+//        this.startDate = startDate;
+//    }
+//
+//    @JsonProperty("endDate")
+//    public Integer getEndDate() {
+//        return endDate;
+//    }
+//
+//    @JsonProperty("endDate")
+//    public void setEndDate(Integer endDate) {
+//        this.endDate = endDate;
+//    }
+//
+//    @JsonAnyGetter
+//    public Map<String, Object> getAdditionalProperties() {
+//        return this.additionalProperties;
+//    }
+//
+//    @JsonAnySetter
+//    public void setAdditionalProperty(String name, Object value) {
+//        this.additionalProperties.put(name, value);
+//    }
 
     @JsonInclude(JsonInclude.Include.NON_NULL)
     @JsonPropertyOrder({
