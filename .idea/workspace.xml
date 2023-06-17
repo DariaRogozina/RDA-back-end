@@ -4,21 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebd06c7f-484a-48c8-b111-5d04033423a6" name="Changes" comment="lesson4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson5/api/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson5/api/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson5/dto/GetCategoryResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson5/dto/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson5/utils/LoggingInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson5/utils/RetrofitUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson5/CreateProductPositiveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson5/GetCategoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson5/GetProductsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson5/ProductNegativeTest.java" afterDir="false" />
+    <list default="true" id="ebd06c7f-484a-48c8-b111-5d04033423a6" name="Changes" comment="lesson5">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/dao/CategoriesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/dao/ProductsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/mapper/xml/CategoriesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/mapper/xml/ProductsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/model/Categories.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/model/CategoriesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/model/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson6/db/model/ProductsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson5/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/lesson4/ResponseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/lesson4/ResponseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson4/RefactorSpoonacularTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson4/RefactorSpoonacularTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson4/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson4/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson5/GetCategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson5/GetCategoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="XML Properties File" />
         <option value="Class" />
       </list>
     </option>
@@ -40,29 +43,32 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Mx4rSBJuCgXWRJK0egs5jYWu5t" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Constanta/IdeaProjects/Dasha&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Constanta/IdeaProjects/RDA-back-end-test",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CreateProductPositiveTest">
+  <component name="RunManager" selected="JUnit.GetCategoryTest.getCategoryByIdPositiveTest">
     <configuration name="CreateProductPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RDA-back-end" />
       <extension name="coverage">
@@ -94,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductNegativeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RDA-back-end" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +109,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lesson5" />
-      <option name="MAIN_CLASS_NAME" value="lesson5.ProductNegativeTest" />
+      <option name="MAIN_CLASS_NAME" value="lesson5.GetCategoryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductNegativeTest.createProductInFoodCategoryNegativeTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GetCategoryTest.getCategoryByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RDA-back-end" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +124,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lesson5" />
-      <option name="MAIN_CLASS_NAME" value="lesson5.ProductNegativeTest" />
-      <option name="METHOD_NAME" value="createProductInFoodCategoryNegativeTest2" />
+      <option name="MAIN_CLASS_NAME" value="lesson5.GetCategoryTest" />
+      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GetCategoryTest.getCategoryByIdPositiveTest" />
+        <item itemvalue="JUnit.GetCategoryTest" />
         <item itemvalue="JUnit.CreateProductPositiveTest" />
         <item itemvalue="JUnit.CreateProductPositiveTest.createProductInFoodCategoryTest" />
         <item itemvalue="JUnit.ProductNegativeTest.modifyProductInFoodCategoryNegativeTest2" />
-        <item itemvalue="JUnit.ProductNegativeTest.createProductInFoodCategoryNegativeTest2" />
-        <item itemvalue="JUnit.ProductNegativeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679060703515</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lesson5">
+      <created>1679327161596</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679327161596</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,8 +216,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="lesson3" />
     <MESSAGE value="lesson4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson4" />
+    <MESSAGE value="lesson5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson5" />
   </component>
 </project>

@@ -45,7 +45,7 @@ public abstract class AbstractTest {
          responseSpecification = new ResponseSpecBuilder()
                 .expectStatusCode(200)
                 .expectStatusLine("HTTP/1.1 200 OK")
-                .expectContentType(ContentType.JSON)
+                .expectContentType("text/plain;charset=UTF-8")
                 .expectResponseTime(Matchers.lessThan(5000L))
                 .expectHeader("Connection", "keep-alive")
                 .build();
